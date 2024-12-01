@@ -4,7 +4,7 @@ subtitle: "Unveiling the Countries with Highest Participation and Organizational
 author:
   - Siyuan Lu
 thanks: "Code and data are available at: [https://github.com/starter_folder](https://github.com/SiyuanLu)." 
-date: "November 27, 2024"
+date: "Dec 2, 2024"
 date-format: long
 abstract: "This study examines the countries with the highest documented women’s participation in armed rebellions and explores the organizational characteristics of these movements. Using a comprehensive dataset on global armed rebellions, key nations where women have played significant roles, both in combat and in leadership positions are identified. By analyzing factors such as political context, societal structures, and the goals of insurgent groups, we aim to understand what drives women's involvement in armed conflict. The findings reveal that women’s participation is not only a response to gender-based oppression but also linked to broader political and social mobilizations. This research provides new understandings into the intersection of gender, rebellion, and power dynamics, offering valuable lessons for conflict resolution and policy-making."
 format: pdf 
@@ -134,7 +134,7 @@ The response variable is binary, making logistic regression an appropriate choic
 
 ## Model Implementation
 
-The logistic regression model is implemented using Python and the scikit-learn library (@jolly2018machine). The software that was employed in the entirety of the project is Anaconda Notebooks. The steps that were followed include Data Preparation, which constituted the cleaning of the dataset, handling missing values, and converting categorical variables (e.g., sideb\_id) into dummy variables. Model Fitting, which involved the fitting of the logistic regression model using the LogisticRegression class from scikit-learn. Model Evaluation that entailed the evaluation of the model's performance using accuracy, precision, recall, and the area under the receiver operating characteristic (ROC) curve.
+The logistic regression model is implemented using Python (@python) and the scikit-learn library (@jolly2018machine). The software that was employed in the entirety of the project is Anaconda Notebooks. The steps that were followed include Data Preparation, which constituted the cleaning of the dataset, handling missing values, and converting categorical variables (e.g., sideb\_id) into dummy variables. Model Fitting, which involved the fitting of the logistic regression model using the LogisticRegression class from scikit-learn. Model Evaluation that entailed the evaluation of the model's performance using accuracy, precision, recall, and the area under the receiver operating characteristic (ROC) curve.
 
 ## Model Validation
 
@@ -278,12 +278,3 @@ Violin plots were used to explore the distribution of participation in relation 
 \newpage
 
 # References
-
-**Commit Messages**
-
-*   **_Data Section:_** Added detailed explanation of variables and dataset scope
-*   **_Measurement Section:_** Included justification for measurement methodology
-*   **_Model Section:_** Defined logistic regression and assumptions
-*   **_Results Section:_** Added regression output tables and visualization
-*   **_Discussion Section:_** Synthesized findings and outlined limitations
-*   **_Edits:_** Updated formatting and improved clarity in data section
