@@ -1,7 +1,6 @@
 LLM: ChatGPT-4.
 Date: 27 November 2024
 
-
 create a logistic regression model
 ChatGPT said:
 ChatGPT
@@ -56,6 +55,7 @@ Extensions:
 For multi-class classification, use multi_class='multinomial' in LogisticRegression and ensure your target (y) has multiple classes.
 Add feature scaling (e.g., StandardScaler) for datasets with features on different scales.
 Adjust hyperparameters like C (regularization strength) or penalty for improved performance.
+
 
 
 cite python in bibtex
