@@ -19,5 +19,5 @@ The repo is structured as:
 
 ## Statement on LLM usage
 
-ChatGPT was used in creating mathematical formula sketches and is in other/llm_usage/usage.txt.
+ChatGPT was used and all chat history is in other/llm_usage/usage.txt.
 
