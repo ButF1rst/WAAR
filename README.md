@@ -19,5 +19,5 @@ The repo is structured as:
 
 ## Statement on LLM usage
 
-ChatGPT was used and all chat history is in other/llm_usage/usage.txt.
+ChatGPT was used to help with modeling and citation. The entire chat history is available in other/llm_usage/Usage.txt.
 
